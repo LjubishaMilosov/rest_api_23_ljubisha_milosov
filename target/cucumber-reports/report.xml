@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.586" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="This feature tests ClickUp API" name="ClickUp Folder and List Test" time="3.412">
+<system-out><![CDATA[
+Given Test space exists and contains the correct information................passed
+When User creates a new folder "Test Folder" in the existing test space and checks data.passed
+And User creates a new list "Test List" in the existing test folder.........passed
+And User verifies that list name "Test List" is correct and added to the correct folder "Test Folder".passed
+And User creates a new list comment "List Comment" in the existing test list "Test List" and verifies name.passed
+And User creates a new task "List Task" in the existing list "Test List"....passed
+And User verifies that task name "List Task" is correct.....................passed
+And User adds one comment "Task Comment" in the existing list task "List Task".passed
+And User removes the task "List Task" from the list "Test List".............passed
+Then User verifies that the task "List Task" is no longer present in the list "Test List".passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+testingClickupApp\clients\ClickupClient.class
+testingClickupApp\domain\TestSpace.class
+testingClickupApp\stepDefinitions\ClickupSteps.class
+testingClickupApp\testRunner\TestRunner.class
+testingClickupApp\constants\ProjectConstants.class
